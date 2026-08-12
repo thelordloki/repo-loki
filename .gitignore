@@ -1,1 +1,62 @@
+# ==============================
+# Terraform
+# ==============================
 
+# Terraform working directory
+.terraform/
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Terraform state backup
+*.tfstate.backup
+
+# Terraform lock file
+.terraform.lock.hcl
+
+# Terraform variable files
+# Uncomment this later when you want to ignore .tfvars files
+# *.tfvars
+# *.tfvars.json
+
+
+# ==============================
+# Terraform Plan Files
+# ==============================
+
+*.tfplan
+*.plan
+
+
+# ==============================
+# Terraform Override Files
+# ==============================
+
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+
+# ==============================
+# Crash Logs
+# ==============================
+
+crash.log
+crash.*.log
+
+
+# ==============================
+# VS Code
+# ==============================
+
+.vscode/
+
+
+# ==============================
+# OS Files
+# ==============================
+
+.DS_Store
+Thumbs.db
