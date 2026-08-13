@@ -4,10 +4,7 @@ resource_group = {
     name     = "loki"
     location = "westus2"
   }
-  rg2 = {
-    name     = "loki2"
-    location = "westus2"
-  }
+  
 }
 #virtual_network
 vnet-test = {
