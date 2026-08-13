@@ -119,7 +119,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: terraform-plan
-          path: ./infra
+          path: ./parent_module
 
       # Terraform Apply
       # - name: Terraform Apply
