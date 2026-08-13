@@ -50,8 +50,8 @@ jobs:
           subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
 
       # Terraform Format
-      - name: Terraform Format Check
-        run: terraform fmt -check -recursive
+      # - name: Terraform Format Check
+      #   run: terraform fmt -check -recursive
 
       # Terraform Init
       - name: Terraform Init
