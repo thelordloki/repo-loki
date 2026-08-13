@@ -90,7 +90,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: ./infra
+        working-directory: ./parent_module
 
     steps:
 
