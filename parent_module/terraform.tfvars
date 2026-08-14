@@ -9,6 +9,11 @@ resource_group = {
     location = "westus2"
   }
 
+  rg3 = {
+    name     = "loki3"
+    location = "westus2"
+  }
+
   
 }
 #virtual_network
