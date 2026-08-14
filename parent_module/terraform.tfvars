@@ -4,10 +4,16 @@ resource_group = {
     name     = "loki"
     location = "westus2"
   }
-  rg1 = {
+  rg2 = {
     name     = "loki2"
     location = "westus2"
   }
+
+  rg3 = {
+    name     = "loki3"
+    location = "westus2"
+  }
+
   
 }
 #virtual_network
